@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXX}XX
+XXXXXXXXXXXXX-XX
+XXXXXXXXXXXXX-XX
+XXXXXX--XXX---XX
+XXXXXXX-XXX---XX
+XXXXXXX-------XX
+XXX-XXX-----X-XX
+XX-------XXXXXXX
+XX-#--X--XXXXXXX
+XX----XXXXXX-XXX
+XX----XXXXXX-XXX
+XX-----XXX----XX
+XX--XX-XXXX---XX
+XXX-XXXXXXX--XXX
+XXX-XXXXXXX-XXXX
+XXX-XXXXXXX-XXXX
+XX-----------XXX
+XX--X-X--XXX-XXX
+XXX-XXXX-XXX-XXX
+XXX--XXX-XXX-XXX
+XXXX-XXXX----XXX
+XXXX-XXXX-#--XXX
+XXXXXXXXX----XXX
+XXXXXXX------XXX
+XXXXXXXX-{-XXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2-boolonly", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[28, 9, 28, 8], [28, 8, 28, 10], [28, 10, 26, 10], [26, 10, 26, 12], [26, 12, 20, 12], [20, 12, 20, 2], [20, 2, 21, 2], [21, 2, 21, 3], [21, 3, 23, 3], [23, 3, 13, 3], [13, 3, 13, 5], [13, 5, 11, 5], [11, 5, 15, 5], [15, 5, 15, 6], [15, 6, 15, 2], [15, 2, 11, 2], [11, 2, 11, 8], [11, 8, 9, 8], [9, 8, 9, 7], [9, 7, 9, 13], [9, 13, 10, 13], [10, 13, 4, 13]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[28, 9], [28, 8], [28, 9], [28, 10], [27, 10], [26, 10], [26, 11], [26, 12], [25, 12], [24, 12], [23, 12], [22, 12], [21, 12], [20, 12], [20, 11], [20, 10], [20, 9], [20, 8], [20, 7], [20, 6], [20, 5], [20, 4], [20, 3], [20, 2], [21, 2], [21, 3], [22, 3], [23, 3], [22, 3], [21, 3], [20, 3], [19, 3], [18, 3], [17, 3], [16, 3], [15, 3], [14, 3], [13, 3], [13, 4], [13, 5], [12, 5], [11, 5], [12, 5], [13, 5], [14, 5], [15, 5], [15, 6], [15, 5], [15, 4], [15, 3], [15, 2], [14, 2], [13, 2], [12, 2], [11, 2], [11, 3], [11, 4], [11, 5], [11, 6], [11, 7], [11, 8], [10, 8], [9, 8], [9, 7], [9, 8], [9, 9], [9, 10], [9, 11], [9, 12], [9, 13], [10, 13], [9, 13], [8, 13], [7, 13], [6, 13], [5, 13], [4, 13]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[15, 13, 16, 13], [15, 4, 11, 4], [11, 4, 15, 4], [16, 13, 15, 13], [20, 5, 21, 5], [20, 7, 21, 7], [21, 5, 20, 5], [21, 7, 20, 7]]}

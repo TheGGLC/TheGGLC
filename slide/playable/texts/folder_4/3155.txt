@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXX--XXX
+XX}XXX-XXX-XXXXX
+XX-XXX-----XXXXX
+XX---XX-X-XXXXXX
+XX----X-XXXXXXXX
+XX-XX---XXXXXXXX
+XX-XXXX-XXXXX-XX
+XX-XXXX-XXXXX-XX
+XX-XXXX-XXX---XX
+XX--XXXXXXX##-XX
+XX--XXXXXXX---XX
+XX---XXXX---X-XX
+XXX--XXXX--XXXXX
+XXX--XXXX---XXXX
+XXXX--XXX---XXXX
+XXXX--XXX-#-XXXX
+XXXX--XXX---XXXX
+XXX---------XXXX
+XXXX--XX---X--XX
+XXXX---XX--XX-XX
+XXXX---XX---X-XX
+XX---#--X-----XX
+XX-------#-XXXXX
+XXXXX-------XXXX
+XXXXX-XX--X-XXXX
+XXXXX--X--XXXXXX
+XX---X--{-XXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2-boolonly", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[28, 8, 24, 8], [24, 8, 24, 2], [24, 2, 23, 2], [23, 2, 23, 4], [23, 4, 13, 4], [13, 4, 13, 2], [13, 2, 3, 2]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[28, 8], [27, 8], [26, 8], [25, 8], [24, 8], [24, 7], [24, 6], [24, 5], [24, 4], [24, 3], [24, 2], [23, 2], [23, 3], [23, 4], [22, 4], [21, 4], [20, 4], [19, 4], [18, 4], [17, 4], [16, 4], [15, 4], [14, 4], [13, 4], [13, 3], [13, 2], [12, 2], [11, 2], [10, 2], [9, 2], [8, 2], [7, 2], [6, 2], [5, 2], [4, 2], [3, 2]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[23, 9, 13, 9], [13, 9, 23, 9]]}

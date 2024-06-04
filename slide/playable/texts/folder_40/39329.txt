@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXX-XXX-XXX}XX
+XX----XXX-----XX
+XXX-#-------XXXX
+XXX------X-XXXXX
+XXX-----XX-XXXXX
+XX--XX---X-XXXXX
+XXX--X-X---XXXXX
+XXX---XX-XX--XXX
+XXXXX--X-XXXXXXX
+XXXXX----XXXXXXX
+XXXXXXX--XXXXXXX
+XXXXXXX-----XXXX
+XXXXXXX-----XXXX
+XXXXXX-X-----XXX
+XXXXX-XX-XXX-XXX
+XXXXX--X-XXX-XXX
+XXXX-X-XXXXX-XXX
+XXXXXX--XXXX-XXX
+XXXXXX--XXX--XXX
+XXXXXX--XXX--XXX
+XX-XXX##-----XXX
+XX-XXX---#---XXX
+XX-XXX-------XXX
+XX-----{-----XXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXX-XXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2-boolonly", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[26, 7, 24, 7], [24, 7, 24, 8], [24, 8, 26, 8], [26, 8, 26, 2], [26, 2, 26, 12], [26, 12, 16, 12], [16, 12, 16, 8], [16, 8, 18, 8], [18, 8, 8, 8], [8, 8, 8, 6], [8, 6, 9, 6], [9, 6, 5, 6], [5, 6, 5, 5], [5, 5, 3, 5], [3, 5, 7, 5], [7, 5, 7, 7], [7, 7, 5, 7], [5, 7, 5, 11], [5, 11, 4, 11], [4, 11, 4, 9], [4, 9, 4, 13], [4, 13, 3, 13]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[26, 7], [25, 7], [24, 7], [24, 8], [25, 8], [26, 8], [26, 7], [26, 6], [26, 5], [26, 4], [26, 3], [26, 2], [26, 3], [26, 4], [26, 5], [26, 6], [26, 7], [26, 8], [26, 9], [26, 10], [26, 11], [26, 12], [25, 12], [24, 12], [23, 12], [22, 12], [21, 12], [20, 12], [19, 12], [18, 12], [17, 12], [16, 12], [16, 11], [16, 10], [16, 9], [16, 8], [17, 8], [18, 8], [17, 8], [16, 8], [15, 8], [14, 8], [13, 8], [12, 8], [11, 8], [10, 8], [9, 8], [8, 8], [8, 7], [8, 6], [9, 6], [8, 6], [7, 6], [6, 6], [5, 6], [5, 5], [4, 5], [3, 5], [4, 5], [5, 5], [6, 5], [7, 5], [7, 6], [7, 7], [6, 7], [5, 7], [5, 8], [5, 9], [5, 10], [5, 11], [4, 11], [4, 10], [4, 9], [4, 10], [4, 11], [4, 12], [4, 13], [3, 13]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[10, 3, 4, 3], [10, 11, 10, 12], [10, 12, 10, 11], [4, 3, 10, 3], [9, 8, 9, 10], [9, 10, 9, 8], [13, 8, 13, 7], [13, 7, 13, 8], [6, 4, 7, 4], [7, 4, 6, 4], [20, 7, 20, 6], [20, 6, 20, 7]]}

@@ -1,0 +1,34 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XX}XXXXX------XX
+XX--XXX---XXX-XX
+XX--XXX---XXXXXX
+XX--XXXX--XXXXXX
+XX---XXX--XXXXXX
+XXXX-XXX##--XXXX
+XXXX--------XXXX
+XXXX---------XXX
+XXX-#-#--#---XXX
+XX-----------XXX
+XX-----#------XX
+XX-XX-----XXX-XX
+XX-XX-----XXX-XX
+XX--X---XXXXX-XX
+XX----#-XXXXX-XX
+XX-##----XXX-XXX
+XX-----#-XXXXXXX
+XX-------XXXXXXX
+XX---XX--XXXXXXX
+XX----X------XXX
+XXXX---#------XX
+XXXX-#------X-XX
+XX------XX--XXXX
+XX-------X---XXX
+XX---X-----#-XXX
+XX---XXX-----XXX
+XX-{-XXX--X-XXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[28, 3, 28, 4], [28, 4, 18, 4], [18, 4, 18, 6], [18, 6, 19, 6], [19, 6, 19, 2], [19, 2, 21, 2], [21, 2, 11, 2], [11, 2, 11, 12], [11, 12, 12, 12], [12, 12, 12, 8], [12, 8, 8, 8], [8, 8, 8, 4], [8, 4, 6, 4], [6, 4, 6, 2], [6, 2, 2, 2]]}
