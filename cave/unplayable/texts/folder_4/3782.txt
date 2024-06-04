@@ -1,0 +1,17 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X-}XXX--X---XX-----------------X
+XXXXXXX----X-------X-X---X-X---X
+XXXXXXX-X--X---XX--X-X---X-X--XX
+XXXXX---X--X---XX--X-X---X-X---X
+X-XX----X----XX-------XXX--X--XX
+X------X----XXXXX-----XXXXX-X--X
+XXXXXX-X--XXXXXXX----XXXXXXX--XX
+XXXXXX-X-XXXXXX---XX-XXXXXXX-X-X
+XXXXXX---XXXXX----XX--XX-XXXXXXX
+XXXXX-XXX-XXX-XX-X--XX--XXXXXXXX
+XXXXX-----XXX-XX-X--XX-XXXXX{--X
+X----XX-XX-------X-----XXXXXXX-X
+XX---XX-XX---XXXX-----X--XXXXX-X
+X------------------------------X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "clingo-be", "objective": 0}

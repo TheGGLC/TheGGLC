@@ -1,0 +1,17 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X-}XXX-----XXX-X---XXXXX--XX-X-X
+XXXXXX------------X--XX-X-----XX
+XXXXXX-XXX-XXX-XXX-XX---X-X-X-XX
+X------------------XX---X-X-X-XX
+XX-----XXXXXXXX-XXX--X--X-X-X-XX
+X--XXXX---------XXX--X----X-X--X
+XXXXXXX-------XXXXXX-X------X--X
+XXXXXXX-X-----XXXXXX-X--XXX--X-X
+X--XXXXXXXX--X--------XXXXXXX--X
+X--XXXXXXXX----XX-----XXXXXXX--X
+X----------XX-XXXX----XXXXX{---X
+XXX------XXXXXXXXXX-----XXXXX--X
+XXX------XXXXXXXXXX-----XXXXX-XX
+X------------------------------X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
