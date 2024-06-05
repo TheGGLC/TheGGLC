@@ -1,0 +1,18 @@
+XXXXXXXXXXXXXXXX
+XX---XXX-------X
+XXXXXXXXX-XXXX-X
+XXXXXXXXX------X
+X---}XXX-------X
+X--XXXXX-XXXX--X
+X--XXXXX-----X-X
+X------------X-X
+XX------XXXX-X-X
+X--XXX--XXXXX--X
+XXXXXX--XXXXX-XX
+XXXXXX--XXX{--XX
+X--XXXXXXXXXX-XX
+XX-XXXXXXXXXX--X
+X--------------X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "clingo-be", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[11, 11, 11, 12], [11, 12, 11, 13], [11, 13, 10, 13], [10, 13, 9, 13], [9, 13, 9, 14], [9, 14, 8, 14], [8, 14, 7, 14], [7, 14, 6, 14], [6, 14, 5, 14], [5, 14, 4, 14], [4, 14, 4, 13], [4, 13, 4, 12], [4, 12, 4, 11], [4, 11, 4, 10], [4, 10, 4, 9], [4, 9, 4, 8], [4, 8, 5, 8], [5, 8, 6, 8], [6, 8, 7, 8], [7, 8, 7, 7], [7, 7, 7, 6], [7, 6, 7, 5], [7, 5, 7, 4], [7, 4, 7, 3], [7, 3, 7, 2], [7, 2, 6, 2], [6, 2, 5, 2], [5, 2, 4, 2], [4, 2, 4, 3], [4, 3, 4, 4]]}
