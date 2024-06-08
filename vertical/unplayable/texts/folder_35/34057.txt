@@ -1,0 +1,21 @@
+XXXXXXXXXXXXXXXX
+----------------
+----XXXX--}---XX
+-XX-XXXX-XXX--XX
+-XX------XXX----
+XXXXX-----------
+XXXXX-----------
+----------------
+----------------
+----------------
+------------XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX-------
+------------XX--
+------------XX--
+----------------
+-XX--------XXXXX
+-XX--------XXXXX
+-XX-----{-------
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}

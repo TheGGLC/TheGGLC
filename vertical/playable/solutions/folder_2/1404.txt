@@ -1,0 +1,22 @@
+XXXXXXXXXXXXXXXX
+----------------
+--------------}-
+-------------XXX
+XX------XX---XXX
+XX------XX------
+---XX--------XXX
+---XX--------XXX
+-XX----XX-------
+-XX----XX----XXX
+-XX----------XXX
+-XX-------------
+-XX---XX-----XX-
+-XX---XX-----XX-
+XXXXX------XX---
+XXXXX---{--XX---
+-------XXXX-----
+-------XXXX-----
+----------------
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[15, 8, 15, 7], [15, 7, 13, 3], [13, 3, 10, 3], [10, 3, 7, 7], [7, 7, 5, 4], [5, 4, 3, 9], [3, 9, 1, 13], [1, 13, 2, 14]]}

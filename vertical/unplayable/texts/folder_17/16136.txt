@@ -1,0 +1,21 @@
+XXXXXXXXXXXXXXXX
+----------------
+-XXXXX------XXXX
+-XXXXX------XXXX
+---------XXX----
+----}----XXX----
+---XXX--------XX
+XX-XXX--------XX
+XX-------XX-----
+---------XX-----
+---XX--------XX-
+---XX--------XX-
+---XX--------XX-
+---XX---XXXXXXXX
+XXXXXXX-XXXXXXXX
+XXXXXXX---------
+------------XX--
+------------XX--
+---------{------
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "clingo-be", "objective": 0}
