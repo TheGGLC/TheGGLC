@@ -1,0 +1,9 @@
+XXXXXXXX
+XXXXX--X
+XXX---oX
+XXo----X
+X---#X-X
+XXX#--XX
+X-X--@XX
+XXXXXXXX
+META {"type": "solver", "id": "pysat-minicard", "objective": 0}
