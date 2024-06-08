@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXX}XXXXXX
+XXXXXXXXX-XXXXXX
+XXXXX-----XXXXXX
+XXXXX-------XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXXX--XXXX
+XXXXXXXXXX----XX
+XXXXXXXXXX----XX
+XXX-----------XX
+XXXXXXXXX-----XX
+XXXXXXXXX--#--XX
+XXXXXX--------XX
+XXXX-------#--XX
+XXXX----XX----XX
+XXXXXXX-XX----XX
+XXXXXXX---XX--XX
+XXXXX-----XX--XX
+XXXXX-------XXXX
+XXXXXXXXXXX--XXX
+XXXXXXXXXXX--XXX
+XXXXXXXXXXX--XXX
+XXXXXXXXXXX--XXX
+XXXXXXXXXXX--XXX
+XXXXXXXX---{-XXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[29, 11, 23, 11], [23, 11, 23, 5], [23, 5, 22, 5], [22, 5, 22, 9], [22, 9, 23, 9], [23, 9, 21, 9], [21, 9, 21, 7], [21, 7, 23, 7], [23, 7, 17, 7], [17, 7, 17, 6], [17, 6, 19, 6], [19, 6, 19, 4], [19, 4, 18, 4], [18, 4, 18, 10], [18, 10, 8, 10], [8, 10, 8, 11], [8, 11, 8, 5], [8, 5, 7, 5], [7, 5, 7, 9], [7, 9, 5, 9]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[29, 11], [28, 11], [27, 11], [26, 11], [25, 11], [24, 11], [23, 11], [23, 10], [23, 9], [23, 8], [23, 7], [23, 6], [23, 5], [22, 5], [22, 6], [22, 7], [22, 8], [22, 9], [23, 9], [22, 9], [21, 9], [21, 8], [21, 7], [22, 7], [23, 7], [22, 7], [21, 7], [20, 7], [19, 7], [18, 7], [17, 7], [17, 6], [18, 6], [19, 6], [19, 5], [19, 4], [18, 4], [18, 5], [18, 6], [18, 7], [18, 8], [18, 9], [18, 10], [17, 10], [16, 10], [15, 10], [14, 10], [13, 10], [12, 10], [11, 10], [10, 10], [9, 10], [8, 10], [8, 11], [8, 10], [8, 9], [8, 8], [8, 7], [8, 6], [8, 5], [7, 5], [7, 6], [7, 7], [7, 8], [7, 9], [6, 9], [5, 9]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[7, 7, 8, 7], [20, 11, 19, 11], [19, 11, 20, 11], [8, 7, 7, 7], [12, 12, 22, 12], [17, 8, 18, 8], [23, 6, 22, 6], [18, 13, 18, 12], [18, 12, 18, 13], [18, 8, 17, 8], [18, 9, 14, 9], [14, 13, 14, 3], [14, 9, 18, 9], [14, 3, 14, 13], [16, 13, 16, 12], [16, 12, 16, 13], [10, 9, 10, 11], [10, 11, 10, 9], [22, 12, 12, 12], [22, 6, 23, 6]]}

@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXX}XXXX
+XXXXXXXXXXX-XXXX
+XXXXXXXXXX--XXXX
+XXXXXXXXXXX-XXXX
+XXXXXXXXXXX-XXXX
+XXX-----XXX---XX
+XXXXXXXXXXX---XX
+XXXXXXXXXXXX--XX
+XXXXXXXXXXXX--XX
+XXXXXXXXXXXX--XX
+XXXXXXXXXXX---XX
+XXXXXXXXX-----XX
+XXXXXXX-------XX
+XXXXXXX-------XX
+XXXXXXXXXX----XX
+XXXXXXXXXX-XXXXX
+XXXXXXXXXX--XXXX
+XXXXX-------XXXX
+XXX-------#-XXXX
+XXXX-----#--XXXX
+XXXX------##--XX
+XXXX----------XX
+XXXX-------XX-XX
+XXXXXXXXX--XX-XX
+XXXXXXXXX-----XX
+XXXXXXXXX--XXXXX
+XXXXXXXXX--XXXXX
+XXXXXXXX-{-XXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[29, 9, 29, 8], [29, 8, 29, 10], [29, 10, 23, 10], [23, 10, 23, 4], [23, 4, 24, 4], [24, 4, 20, 4], [20, 4, 20, 3], [20, 3, 20, 9], [20, 9, 19, 9], [19, 9, 19, 5], [19, 5, 19, 11], [19, 11, 18, 11], [18, 11, 18, 10], [18, 10, 19, 10], [19, 10, 13, 10], [13, 10, 13, 9], [13, 9, 13, 13], [13, 13, 7, 13], [7, 13, 7, 11], [7, 11, 8, 11], [8, 11, 2, 11]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[29, 9], [29, 8], [29, 9], [29, 10], [28, 10], [27, 10], [26, 10], [25, 10], [24, 10], [23, 10], [23, 9], [23, 8], [23, 7], [23, 6], [23, 5], [23, 4], [24, 4], [23, 4], [22, 4], [21, 4], [20, 4], [20, 3], [20, 4], [20, 5], [20, 6], [20, 7], [20, 8], [20, 9], [19, 9], [19, 8], [19, 7], [19, 6], [19, 5], [19, 6], [19, 7], [19, 8], [19, 9], [19, 10], [19, 11], [18, 11], [18, 10], [19, 10], [18, 10], [17, 10], [16, 10], [15, 10], [14, 10], [13, 10], [13, 9], [13, 10], [13, 11], [13, 12], [13, 13], [12, 13], [11, 13], [10, 13], [9, 13], [8, 13], [7, 13], [7, 12], [7, 11], [8, 11], [7, 11], [6, 11], [5, 11], [4, 11], [3, 11], [2, 11]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[10, 13, 10, 12], [10, 12, 10, 13], [22, 13, 22, 12], [22, 12, 23, 12], [15, 7, 14, 7], [28, 9, 28, 10], [28, 10, 28, 9], [14, 7, 15, 7], [23, 13, 22, 13], [23, 12, 23, 13], [21, 11, 21, 10], [21, 10, 21, 11], [25, 9, 25, 10], [25, 10, 25, 9]]}

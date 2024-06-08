@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXX----XXX}XXXX
+XXXX----XXX-XXXX
+XXXX--------XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXX----XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXXX----XX
+XXXXXXXXXX##--XX
+XXXXXXXXXX----XX
+XXXXXXX---#---XX
+XXXXX---------XX
+XXXXXXXXX-XX--XX
+XXXXXXXXX-XX--XX
+XXXXXXXXX--XXXXX
+XXXXXXXXX--XXXXX
+XXXXXXXX-#---XXX
+XXXXXX-------XXX
+XXXXXX-------XXX
+XXXXXX--#-#--XXX
+XXXXXX-----{-XXX
+XXXXXXX---XXXXXX
+XXXXXXX---XXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[27, 11, 23, 11], [23, 11, 23, 10], [23, 10, 21, 10], [21, 10, 21, 9], [21, 9, 17, 9], [17, 9, 17, 7], [17, 7, 18, 7], [18, 7, 18, 13], [18, 13, 14, 13], [14, 13, 20, 13], [20, 13, 20, 12], [20, 12, 14, 12], [14, 12, 14, 10], [14, 10, 4, 10], [4, 10, 4, 11], [4, 11, 2, 11]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[27, 11], [26, 11], [25, 11], [24, 11], [23, 11], [23, 10], [22, 10], [21, 10], [21, 9], [20, 9], [19, 9], [18, 9], [17, 9], [17, 8], [17, 7], [18, 7], [18, 8], [18, 9], [18, 10], [18, 11], [18, 12], [18, 13], [17, 13], [16, 13], [15, 13], [14, 13], [15, 13], [16, 13], [17, 13], [18, 13], [19, 13], [20, 13], [20, 12], [19, 12], [18, 12], [17, 12], [16, 12], [15, 12], [14, 12], [14, 11], [14, 10], [13, 10], [12, 10], [11, 10], [10, 10], [9, 10], [8, 10], [7, 10], [6, 10], [5, 10], [4, 10], [4, 11], [3, 11], [2, 11]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[19, 12, 19, 13], [19, 13, 19, 12], [9, 9, 9, 11], [9, 11, 9, 9], [10, 9, 10, 11], [10, 11, 10, 9], [28, 7, 28, 9], [28, 9, 28, 7], [13, 9, 13, 11], [13, 11, 13, 9], [2, 7, 4, 7], [2, 5, 4, 5], [15, 12, 15, 13], [15, 13, 15, 12], [26, 12, 26, 11], [26, 11, 26, 12], [4, 7, 2, 7], [4, 5, 2, 5], [29, 7, 29, 9], [29, 9, 29, 7], [12, 9, 12, 11], [12, 11, 12, 9], [17, 11, 17, 13], [17, 13, 17, 11]]}

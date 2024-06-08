@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXX}XXXXX
+XXXXXXXXXX-XXXXX
+XXXXXXXXXX-XXXXX
+XXXXXXXXXX-XXXXX
+XXXXXXXX---XXXXX
+XXXXXXXXX-----XX
+XXXXXXXXX##---XX
+XXXXXXXXX-----XX
+XXXXXXXXX##---XX
+XXXXXXXXX-----XX
+XX------------XX
+XX------------XX
+XXXXXXXXX-----XX
+XXXXXXXXX-----XX
+XXXXXXX-----#-XX
+XXXXXXX-XXX---XX
+XXXXXX--XXX---XX
+XXXXXX--------XX
+XXXXXXXX-XXX--XX
+XXXXXXXX-XXX--XX
+XXXXXXXX-XXX--XX
+XXXXXX---XXX--XX
+XXXXXX--#--XXXXX
+XXXXXX------XXXX
+XXXXXX----#-XXXX
+XXXXXX------XXXX
+XXXXXX---{--XXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2-boolonly", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[29, 9, 25, 9], [25, 9, 25, 10], [25, 10, 26, 10], [26, 10, 26, 6], [26, 6, 24, 6], [24, 6, 24, 8], [24, 8, 20, 8], [20, 8, 20, 6], [20, 6, 19, 6], [19, 6, 19, 7], [19, 7, 20, 7], [20, 7, 20, 13], [20, 13, 24, 13], [24, 13, 24, 12], [24, 12, 18, 12], [18, 12, 18, 11], [18, 11, 8, 11], [8, 11, 8, 9], [8, 9, 7, 9], [7, 9, 7, 10], [7, 10, 3, 10]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[29, 9], [28, 9], [27, 9], [26, 9], [25, 9], [25, 10], [26, 10], [26, 9], [26, 8], [26, 7], [26, 6], [25, 6], [24, 6], [24, 7], [24, 8], [23, 8], [22, 8], [21, 8], [20, 8], [20, 7], [20, 6], [19, 6], [19, 7], [20, 7], [20, 8], [20, 9], [20, 10], [20, 11], [20, 12], [20, 13], [21, 13], [22, 13], [23, 13], [24, 13], [24, 12], [23, 12], [22, 12], [21, 12], [20, 12], [19, 12], [18, 12], [18, 11], [17, 11], [16, 11], [15, 11], [14, 11], [13, 11], [12, 11], [11, 11], [10, 11], [9, 11], [8, 11], [8, 10], [8, 9], [7, 9], [7, 10], [6, 10], [5, 10], [4, 10], [3, 10]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[13, 4, 14, 4], [13, 5, 14, 5], [16, 13, 16, 9], [16, 9, 16, 13], [17, 11, 17, 7], [17, 7, 17, 11], [28, 10, 29, 10], [9, 13, 9, 11], [9, 11, 9, 13], [14, 4, 13, 4], [14, 5, 13, 5], [23, 13, 23, 12], [23, 12, 23, 13], [25, 6, 25, 7], [25, 7, 25, 6], [22, 13, 22, 12], [22, 12, 22, 13], [29, 10, 28, 10]]}

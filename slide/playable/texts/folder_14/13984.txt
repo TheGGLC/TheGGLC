@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXX---XXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXX}XXXX
+XXXXXXXXXXX-XXXX
+XXXXX---XXX-XXXX
+XXXXX---XXX-XXXX
+XXXXX-------XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX##-XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXXX----XX
+XXXXXXXXXX----XX
+XXXXXXXXXX-XXXXX
+XXXXXXXXXX--XXXX
+XXXXXXX-----XXXX
+XXXXXXX-----XXXX
+XXXXXX---XX-XXXX
+XXXXXX---XX---XX
+XXXXX---#--#--XX
+XXXXXX--------XX
+XXXXXX--------XX
+XXXXXXXXX-XX--XX
+XXXXXXXXX-XX--XX
+XXXXXXXXX-----XX
+XXXXXXX-----#-XX
+XXXXXXX--{----XX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[29, 9, 29, 13], [29, 13, 29, 7], [29, 7, 28, 7], [28, 7, 28, 11], [28, 11, 27, 11], [27, 11, 27, 9], [27, 9, 27, 13], [27, 13, 21, 13], [21, 13, 21, 11], [21, 11, 17, 11], [17, 11, 17, 10], [17, 10, 13, 10], [13, 10, 13, 9], [13, 9, 13, 11], [13, 11, 15, 11], [15, 11, 5, 11]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[29, 9], [29, 10], [29, 11], [29, 12], [29, 13], [29, 12], [29, 11], [29, 10], [29, 9], [29, 8], [29, 7], [28, 7], [28, 8], [28, 9], [28, 10], [28, 11], [27, 11], [27, 10], [27, 9], [27, 10], [27, 11], [27, 12], [27, 13], [26, 13], [25, 13], [24, 13], [23, 13], [22, 13], [21, 13], [21, 12], [21, 11], [20, 11], [19, 11], [18, 11], [17, 11], [17, 10], [16, 10], [15, 10], [14, 10], [13, 10], [13, 9], [13, 10], [13, 11], [14, 11], [15, 11], [14, 11], [13, 11], [12, 11], [11, 11], [10, 11], [9, 11], [8, 11], [7, 11], [6, 11], [5, 11]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[11, 9, 9, 9], [7, 5, 7, 7], [7, 6, 9, 6], [7, 7, 9, 7], [14, 13, 15, 13], [27, 12, 21, 12], [15, 13, 14, 13], [21, 6, 20, 6], [21, 12, 27, 12], [21, 8, 21, 6], [25, 13, 25, 12], [25, 12, 25, 13], [22, 5, 22, 7], [22, 10, 22, 9], [22, 9, 22, 10], [22, 7, 22, 5], [9, 11, 9, 5], [9, 5, 7, 5], [9, 6, 7, 6], [9, 9, 11, 9], [9, 7, 9, 11], [26, 13, 26, 12], [26, 12, 26, 13], [20, 6, 20, 8], [20, 8, 21, 8]]}

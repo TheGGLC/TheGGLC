@@ -1,0 +1,36 @@
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XX------XXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXX}XXXX
+XXXXXXXXXXX-XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX##-XXXX
+XXXXXXXXX---XXXX
+XXXXXXXX----XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX##-XXXX
+XXXXXXXXX---XXXX
+XXXXXXX-----XXXX
+XXXXXXX-----XXXX
+XXXXXXXXXX-#--XX
+XXXXXXXXXX--XXXX
+XXXXXXXXXX---XXX
+XXXXXXXXXX---XXX
+XXXXXXXXXX---XXX
+XXXXXXXX-----XXX
+XXX----------XXX
+XXX-------#--XXX
+XXXXXXX-XX-XXXXX
+XXXXXXX-XX--XXXX
+XXXXXXX---#-XXXX
+XXXXXXXXX---XXXX
+XXXXXXXXX---XXXX
+XXXXXXXX--{-XXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[29, 10, 27, 10], [27, 10, 27, 11], [27, 11, 27, 9], [27, 9, 26, 9], [26, 9, 26, 7], [26, 7, 22, 7], [22, 7, 22, 3], [22, 3, 23, 3], [23, 3, 23, 9], [23, 9, 21, 9], [21, 9, 21, 8], [21, 8, 21, 12], [21, 12, 23, 12], [23, 12, 23, 11], [23, 11, 17, 11], [17, 11, 17, 10], [17, 10, 13, 10], [13, 10, 13, 9], [13, 9, 15, 9], [15, 9, 15, 7], [15, 7, 14, 7], [14, 7, 14, 11], [14, 11, 15, 11], [15, 11, 5, 11]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[29, 10], [28, 10], [27, 10], [27, 11], [27, 10], [27, 9], [26, 9], [26, 8], [26, 7], [25, 7], [24, 7], [23, 7], [22, 7], [22, 6], [22, 5], [22, 4], [22, 3], [23, 3], [23, 4], [23, 5], [23, 6], [23, 7], [23, 8], [23, 9], [22, 9], [21, 9], [21, 8], [21, 9], [21, 10], [21, 11], [21, 12], [22, 12], [23, 12], [23, 11], [22, 11], [21, 11], [20, 11], [19, 11], [18, 11], [17, 11], [17, 10], [16, 10], [15, 10], [14, 10], [13, 10], [13, 9], [14, 9], [15, 9], [15, 8], [15, 7], [14, 7], [14, 8], [14, 9], [14, 10], [14, 11], [15, 11], [14, 11], [13, 11], [12, 11], [11, 11], [10, 11], [9, 11], [8, 11], [7, 11], [6, 11], [5, 11]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[22, 12, 18, 12], [22, 10, 22, 12], [9, 9, 11, 9], [11, 9, 9, 9], [18, 12, 18, 10], [18, 10, 22, 10], [16, 12, 16, 13], [16, 13, 16, 12], [7, 11, 7, 9], [7, 9, 7, 11]]}
