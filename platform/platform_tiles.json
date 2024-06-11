@@ -1,0 +1,13 @@
+{
+    "tiles" : {
+        "-" : ["sky"],
+        "X" : ["solid"],
+        "[" : ["left pipe"],
+        "]" : ["right pipe"],
+        "<" : ["top-left pipe"],
+        ">" : ["top-right pipe"],
+        "Q" : ["question block"],
+        "{" : ["start"],
+        "}" : ["end"]
+    }
+}
