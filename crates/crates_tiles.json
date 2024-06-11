@@ -1,0 +1,10 @@
+{
+    "tiles" : {
+        "-" : ["empty"],
+        "X" : ["solid"],
+        "o" : ["empty slot"],
+        "O" : ["occupied slot"],
+        "#" : ["crate"],
+        "@" : ["player"]
+    }
+}
