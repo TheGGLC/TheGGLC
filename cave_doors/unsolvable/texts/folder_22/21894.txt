@@ -1,0 +1,23 @@
+XXXXXXXXXXXXXXXX
+XXXXXXX--X----XX
+X{--------b---XX
+XXX----X-X-----X
+XXX------------X
+X--X--X--X--X-XX
+XX--X-----X--X-X
+XXX-X--XXX-X---X
+XXX-X-X-----XXXX
+XXXX-X--XXX----X
+XXXXX---XXXX-X-X
+XXXXX-X-XXXX--XX
+X--------XXX-XXX
+X--XXBXX-----XXX
+X---------XX--}X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2-boolonly", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[2, 1, 2, 2], [2, 2, 2, 3], [2, 3, 2, 4], [2, 4, 2, 5], [2, 5, 2, 6], [2, 6, 2, 7], [2, 7, 2, 8], [2, 8, 2, 9], [2, 9, 2, 10]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[4, 8, 4, 7], [4, 10, 4, 9], [4, 5, 4, 6], [4, 7, 4, 8], [4, 4, 4, 3], [4, 6, 4, 5], [4, 12, 4, 13], [4, 9, 4, 10], [4, 13, 4, 12], [4, 3, 4, 4]]}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[13, 5, 14, 5], [14, 5, 14, 6], [14, 6, 14, 7], [14, 7, 14, 8], [14, 8, 13, 8], [13, 8, 13, 9], [13, 9, 13, 10], [13, 10, 13, 11], [13, 11, 13, 12], [13, 12, 14, 12], [14, 12, 14, 13], [14, 13, 14, 14]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[13, 5], [14, 5], [14, 6], [14, 7], [14, 8], [13, 8], [13, 9], [13, 10], [13, 11], [13, 12], [14, 12], [14, 13], [14, 14]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[13, 2, 14, 2], [13, 1, 13, 2], [14, 2, 14, 1], [14, 1, 13, 1]]}
