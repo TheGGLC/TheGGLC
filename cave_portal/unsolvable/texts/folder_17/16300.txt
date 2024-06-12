@@ -1,0 +1,20 @@
+XXXXXXXXXXXXXXXX
+XXXX-----XX-XXXX
+X0-----X----XXXX
+XXXXXXX-XXX--1XX
+XXXXXXXXXXX-XXXX
+X---XXXXXXXXXXXX
+X-XX-XX-XXXXXXXX
+XXXXXXXX-XX-XX-X
+XXXXXXXX---XXXXX
+X-XX-XX-X--XXXXX
+X----XX-X---XX-X
+X-XX-XX-X-X----X
+XXXXXXXX-----XXX
+XXXXXXXX-XXX-XXX
+X2--XX--------3X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "clingo-be", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[2, 1, 2, 2], [2, 2, 2, 3], [2, 3, 2, 4], [2, 4, 1, 4], [1, 4, 1, 5], [1, 5, 1, 6], [1, 6, 1, 7], [1, 7, 1, 8], [1, 8, 2, 8], [2, 8, 2, 9], [2, 9, 2, 10], [2, 10, 2, 11], [2, 11, 3, 11], [3, 11, 3, 12], [3, 12, 3, 13]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[2, 1], [2, 2], [2, 3], [2, 4], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [2, 8], [2, 9], [2, 10], [2, 11], [3, 11], [3, 12], [3, 13]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": []}

@@ -1,0 +1,20 @@
+XXXXXXXXXXXXXXXX
+XXX-XX-XX-XX--1X
+X0-----------XXX
+XXXXX--X--XX-XXX
+XXXXXX-X-XXXX--X
+X-XXXX-X-XXXX-XX
+X-------------XX
+XXXX-X-X-XX-X--X
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+X-XX----XX----XX
+X-XX----XX----XX
+XXXXXXX------XXX
+XXXXXXX-XXX--XXX
+X2---------XX-3X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[2, 1, 2, 2], [2, 2, 2, 3], [2, 3, 2, 4], [2, 4, 2, 5], [2, 5, 3, 5], [3, 5, 3, 6], [3, 6, 2, 6], [2, 6, 2, 7], [2, 7, 2, 8], [2, 8, 2, 9], [2, 9, 2, 10], [2, 10, 2, 11], [2, 11, 2, 12], [2, 12, 1, 12], [1, 12, 1, 13], [1, 13, 1, 14]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [3, 5], [3, 6], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [2, 11], [2, 12], [1, 12], [1, 13], [1, 14]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": []}

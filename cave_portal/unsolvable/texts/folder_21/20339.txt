@@ -1,0 +1,20 @@
+XXXXXXXXXXXXXXXX
+X0-X---X-X----1X
+XXX-X--------XXX
+XXX-X-XXX-XX-XXX
+XXX-X----XXXX--X
+XXXX--XX-XXXXX-X
+XXXX-XXXX-XXXX-X
+XXX-XXXXXX-XX-XX
+XXXXXXXXXX-XX-XX
+XXXXXXXX--XXXX-X
+X----XX---XXXX-X
+X---XXXX---XX--X
+XXX-XXXXXXXXXXXX
+XXX--XXXXXXXXXXX
+X2------------3X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "clingo-be", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[14, 1, 14, 2], [14, 2, 14, 3], [14, 3, 14, 4], [14, 4, 14, 5], [14, 5, 14, 6], [14, 6, 14, 7], [14, 7, 14, 8], [14, 8, 14, 9], [14, 9, 14, 10], [14, 10, 14, 11], [14, 11, 14, 12], [14, 12, 14, 13], [14, 13, 14, 14]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[14, 1], [14, 2], [14, 3], [14, 4], [14, 5], [14, 6], [14, 7], [14, 8], [14, 9], [14, 10], [14, 11], [14, 12], [14, 13], [14, 14]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[9, 9, 10, 9], [9, 8, 9, 9], [5, 4, 6, 4], [10, 4, 10, 3], [10, 3, 10, 4], [10, 9, 10, 8], [10, 8, 9, 8], [6, 4, 5, 4], [4, 7, 4, 8], [4, 8, 4, 7], [2, 9, 2, 8], [2, 8, 2, 9], [11, 9, 11, 8], [11, 8, 11, 9], [8, 13, 7, 13], [8, 10, 7, 10], [7, 13, 8, 13], [7, 10, 8, 10]]}

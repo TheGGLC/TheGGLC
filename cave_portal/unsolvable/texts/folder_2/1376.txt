@@ -1,0 +1,20 @@
+XXXXXXXXXXXXXXXX
+XXX-XX-X----1XXX
+X0---------XXXXX
+XXXXX-XX--XXXXXX
+XXXXXXXXXXXXXXXX
+X-XXXXXXXXXXXX-X
+XX-XX-XX---XXXXX
+X-X--XXXXXXXXXXX
+X-X--XXXXXXXXX-X
+X-X-------XX--XX
+XX-X------XX---X
+X-----------XX-X
+XXX----XXX-XXXXX
+XXX--------XXXXX
+X2-------XX---3X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "pysat-rc2", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[2, 1, 2, 2], [2, 2, 2, 3], [2, 3, 2, 4], [2, 4, 2, 5], [2, 5, 2, 6], [2, 6, 2, 7], [2, 7, 2, 8], [2, 8, 2, 9], [2, 9, 2, 10], [2, 10, 1, 10], [1, 10, 1, 11], [1, 11, 1, 12]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [1, 10], [1, 11], [1, 12]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[10, 8, 11, 8], [10, 9, 11, 9], [10, 6, 9, 6], [14, 2, 14, 3], [14, 3, 14, 2], [14, 5, 14, 6], [14, 6, 14, 5], [1, 8, 1, 9], [1, 9, 1, 8], [11, 3, 11, 4], [11, 8, 10, 8], [11, 7, 11, 6], [11, 9, 10, 9], [11, 4, 11, 3], [11, 6, 11, 7], [8, 1, 9, 1], [9, 8, 9, 7], [9, 7, 9, 8], [9, 1, 8, 1], [9, 6, 10, 6]]}

@@ -1,0 +1,20 @@
+XXXXXXXXXXXXXXXX
+XXX0-XX-XX-XX-1X
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXX-XX-XX--XX--X
+X---XX-XX-XXXXXX
+XX-XXXXXXXXXXXXX
+XX-XXXXXXXXXX--X
+X-X-XXXX-XX--XXX
+X-------XXXXXXXX
+X--XXX--XXXXXXXX
+X-----X--XXXXX-X
+XXXXX-X----XXXXX
+XXXXX-X----XXXXX
+X2------XX----3X
+XXXXXXXXXXXXXXXX
+META {"type": "solver", "id": "clingo-be", "objective": 0}
+META {"type": "geom", "shape": "path", "group": "path", "data": [[14, 1, 14, 2], [14, 2, 14, 3], [14, 3, 14, 4], [14, 4, 14, 5], [14, 5, 14, 6], [14, 6, 14, 7], [14, 7, 13, 7], [13, 7, 13, 8], [13, 8, 12, 8], [12, 8, 12, 9], [12, 9, 13, 9], [13, 9, 13, 10], [13, 10, 14, 10], [14, 10, 14, 11], [14, 11, 14, 12], [14, 12, 14, 13], [14, 13, 14, 14]]}
+META {"type": "geom", "shape": "tile", "group": "path", "data": [[14, 1], [14, 2], [14, 3], [14, 4], [14, 5], [14, 6], [14, 7], [13, 7], [13, 8], [12, 8], [12, 9], [13, 9], [13, 10], [14, 10], [14, 11], [14, 12], [14, 13], [14, 14]]}
+META {"type": "geom", "shape": "line", "group": "offpath", "data": [[7, 13, 7, 14], [7, 14, 7, 13], [5, 6, 4, 6], [5, 2, 6, 2], [10, 7, 10, 6], [10, 6, 9, 6], [6, 2, 5, 2], [12, 7, 11, 7], [9, 7, 10, 7], [9, 4, 9, 3], [9, 6, 9, 7], [9, 3, 9, 4], [11, 7, 12, 7], [4, 6, 5, 6], [4, 13, 4, 14], [4, 14, 4, 13], [8, 11, 8, 12], [8, 12, 8, 11]]}
