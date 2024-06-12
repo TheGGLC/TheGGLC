@@ -1,0 +1,10 @@
+{
+    "tiles" : {
+        "-" : ["empty"],
+        "X" : ["solid"],
+        "0" : ["start, door 0"],
+        "1" : ["door 1"],
+        "2" : ["door 2"],
+        "3" : ["end, door 3"]
+    }
+}

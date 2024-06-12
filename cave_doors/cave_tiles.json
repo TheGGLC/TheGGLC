@@ -2,6 +2,8 @@
     "tiles" : {
         "-" : ["empty"],
         "X" : ["solid"],
+        "b" : ["key"],
+        "B" : ["locked door"],
         "{" : ["start"],
         "}" : ["end"]
     }
