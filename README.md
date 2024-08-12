@@ -13,7 +13,7 @@ The five games are:
 
 - **crates**: A puzzle game inspired by Sokoban in which the player has to push crates around the level into slots. The player can only push crates, not pull them, and the crates can only be pushed one at a time. Although seemingly easy, game levels can be hard to play as even a single push of crates into constrained positions, such as against walls, corners, or narrow passages, can make it immovable or block access to other areas. There are $10,000$ simple levels in this dataset coming in $16*16$ size and $2$ crates.
 
-Each game level in this dataset contains two representations: an image and a text description. The image representation is a picture of the level and the text representation is a 2D tile of characters, where each character generally indicates the function of the tile at that tile location (e.g., typically X for solid and - for empty). Tiles of each game have been introduced in the tile.json file. The movement template of each game is also available in move.json.
+Each game level in this dataset contains two representations: an image and a text description. The image representation is a picture of the level and the text representation is a 2D tile of characters, where each character generally indicates the function of the tile at that tile location (e.g., typically X for solid and - for empty). Tiles of each game have been introduced in the **tile.json** file. The movement template of each game is also available in **move.json**.
 
 Each level, if solvable, also has an associated solution. This is either a location-to-location edge path from the start location (usually represented by a { to the goal location (usually represented by a }), or a playthrough sequence of levels.  The solutions are not necessarily unique and there may be (many) other solutions to a given level.
 
@@ -21,11 +21,18 @@ The source code of the generation process is available on https://github.com/The
 
 # Quick setup
 to load game level images: 
-`X_img, y_img = load_img(game)`
+`levels_imgs, levels_labels = load_img(game)`
 for example:
-`X_img, y_img = load_img("cave")`
+`levels_imgs, levels_labels = load_img("cave")`
+
 
 to load game level texts: 
-`X_img, y_img = load_txt(game)`
+`levels_txts, levels_labels = load_txt(game)`
 for example:
-`X_img, y_img = load_txt("cave")`
+`levels_txts, levels_labels = load_txt("cave")`
+
+
+to load solvable game level texts and solutions
+`levels_txts, levels_path = load_txt_solutions("game")`
+for example:
+`levels_txts, levels_path = load_txt_solutions("cave")`

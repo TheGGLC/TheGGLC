@@ -1,11 +1,9 @@
-import os
-import pdb
 import sys
-from tkinter import Image
+import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import random
+import json
+from PIL import Image
 import numpy as np
-import glob
 
 platform_chars_unique = sorted(list(["-","X", "}", "{", "<", ">", "[", "]", "Q", "S"]))
 cave_chars_unique = sorted(list(["-","X", "}", "{"]))
@@ -63,12 +61,11 @@ def load_txt_solvable(game):
                     with open(file_path, 'r') as file:
                         for line in file:
                             line = line.rstrip('\n')
-                            if not line.startswith('META'):
+                            if line.startswith('META') and len(current_block) > 0:
                                 levels.append(current_block)
                                 current_block = []
                                 labels.append(1)
-
-                            elif len(current_block) > 0:
+                            else:
                                 current_block.append(line)
 
     labels = np.array(labels)
@@ -89,12 +86,12 @@ def load_txt_unsolvable(game):
                     with open(file_path, 'r') as file:
                         for line in file:
                             line = line.rstrip('\n')
-                            if not line.startswith('META'):
+                            if line.startswith('META') and len(current_block) > 0:
                                 levels.append(current_block)
                                 current_block = []
                                 labels.append(0)
 
-                            elif len(current_block) > 0:
+                            else:
                                 current_block.append(line)
                                         
 
@@ -110,7 +107,7 @@ def load_txt(game):
     return X, y
 
 def load_img_solvable(game):
-    parent_directory_p = f'./{game}/solvable/texts'
+    parent_directory_p = f'./{game}/solvable/images'
     images = []
     labels = []
     for _, dirs, _ in os.walk(parent_directory_p):
@@ -128,7 +125,7 @@ def load_img_solvable(game):
     return images, labels
 
 def load_img_unsolvable(game):
-    parent_directory_p = f'./{game}/unsolvable/texts'
+    parent_directory_p = f'./{game}/unsolvable/images'
     images = []
     labels = []
     for _, dirs, _ in os.walk(parent_directory_p):
@@ -152,3 +149,44 @@ def load_img(game):
     X = np.concatenate((X1,X2), axis=0)
     y = np.concatenate((y1,y2), axis=0)
     return X, y
+
+def extract_data_from_meta(line):
+    try:
+        # Extract the JSON part from the line
+        json_str = line.split("META", 1)[1].strip()
+        # Parse the JSON
+        meta_obj = json.loads(json_str)
+        # Check if "shape" is "path"
+        if meta_obj.get("shape") == "path":
+            return meta_obj.get("data")
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON: {e}")
+    return None
+
+def load_txt_solutions(game):
+    parent_directory_p = f'./{game}/solvable/texts'
+
+    levels = []
+    solutions = []
+    current_block = []
+    for _, dirs, _ in os.walk(parent_directory_p):
+        for dir in dirs:
+            dir_path = os.path.join(parent_directory_p, dir)
+            for _, _, files in os.walk(dir_path):
+                for file in files:
+                    file_path = os.path.join(dir_path, file)
+                    with open(file_path, 'r') as file:
+                        for line in file:
+                            line = line.rstrip('\n')
+                            if line.startswith('META'):
+                                if len(current_block) > 0:
+                                    levels.append(current_block)
+                                    current_block = []
+                                data_value = extract_data_from_meta(line)
+                                if data_value is not None:
+                                    solutions.append(data_value)
+                            else:
+                                current_block.append(line)
+
+    solutions = np.array(solutions, dtype=object)
+    return levels, solutions
