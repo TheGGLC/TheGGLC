@@ -21,18 +21,27 @@ The source code of the generation process is available on https://github.com/The
 
 # Quick setup
 to load game level images: 
+
 `levels_imgs, levels_labels = load_img(game)`
+
 for example:
+
 `levels_imgs, levels_labels = load_img("cave")`
 
 
 to load game level texts: 
+
 `levels_txts, levels_labels = load_txt(game)`
+
 for example:
+
 `levels_txts, levels_labels = load_txt("cave")`
 
 
 to load solvable game level texts and solutions
+
 `levels_txts, levels_path = load_txt_solutions("game")`
+
 for example:
+
 `levels_txts, levels_path = load_txt_solutions("cave")`
