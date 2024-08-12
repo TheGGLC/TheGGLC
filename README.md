@@ -18,3 +18,14 @@ Each game level in this dataset contains two representations: an image and a tex
 Each level, if solvable, also has an associated solution. This is either a location-to-location edge path from the start location (usually represented by a { to the goal location (usually represented by a }), or a playthrough sequence of levels.  The solutions are not necessarily unique and there may be (many) other solutions to a given level.
 
 The source code of the generation process is available on https://github.com/TheGGLC/Source.
+
+# Quick setup
+to load game level images: 
+`X_img, y_img = load_img(game)`
+for example:
+`X_img, y_img = load_img("cave")`
+
+to load game level texts: 
+`X_img, y_img = load_txt(game)`
+for example:
+`X_img, y_img = load_txt("cave")`
